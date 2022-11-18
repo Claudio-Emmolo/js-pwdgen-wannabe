@@ -4,14 +4,35 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(https://png.pngtree.com/thumb_back/fh260/back_our/20190625/ourmid/pngtree-blue-business-technology-information-security-banner-background-image_260807.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 div.box-name{
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
+}
+
+div.box-name h1{
+    text-align: center;
+    color: white;
 }
 
 div.box-name p{
     font-size: 5rem;
     text-transform: uppercase;
+    background-color: white;
+    padding: 2rem;
+}
+
+div.box-name i{
+    font-size: 3rem;
+    padding: 0 2rem;
+    padding-bottom: 1rem;
+    vertical-align: middle;
 }
