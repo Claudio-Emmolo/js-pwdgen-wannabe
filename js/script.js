@@ -7,5 +7,6 @@ console.log (surnamePeople); //Console Print
 let colorLove = prompt ("Qual'è il tuo colore preferito?"); //Chiedo il colore preferito
 console.log (colorLove); //Console Print
 
-document.getElementById("name") .innerHTML = namePeople + " " + surnamePeople + " " + colorLove + " " + "22";
+const numero = 22;
 
+document.getElementById("name") .innerHTML = namePeople + " " + surnamePeople + " " + colorLove + " " + numero;
